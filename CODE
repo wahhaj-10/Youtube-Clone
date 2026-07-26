@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/video.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/sidebar.css">
+  </head>
+  <body>
+    <div 
+    class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="Intro-html/pics/header_line.svg">
+            <img class="youtube-logo" src="Intro-html/pics/header_yt.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">  
+            <button class="search-button"><img class="search-icon" src="Intro-html/pics/header_search.svg"></button>   
+            <button class="mic-button"><img class="mic-icon" src="Intro-html/pics/header_mic.svg"></button>
+        </div>
+        <div class="right-section">
+           <img class="upload-icon" src="Intro-html/pics/header_vid.svg">
+            <img class="youtube-apps-icon" src="Intro-html/pics/header_box.svg">
+            <img class="notifications-icon" src="Intro-html/pics/header_not.svg">
+           <img class="current-user-picture" src="Intro-html/pics/header_dp.jpg">
+        </div>
+    </div>
+
+    
+        <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="Intro-html/pics/sidebar_home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Intro-html/pics/sidebar_explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Intro-html/pics/sidebar_subs.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Intro-html/pics/sidebar_orig.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Intro-html/pics/sidebar_music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Intro-html/pics/sidebar_library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Intro-html/pics/thumbnail_1.avif">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Intro-html/pics/channel_1.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Intro-html/pics/thumbnail_2.avif">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Intro-html/pics/channel_2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Real Madrid VS PSG | UEFA Champions League 2017/18 Highlights
+            </p>
+            <p class="video-author">
+              Football World
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Intro-html/pics/thumbnail_3.avif">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Intro-html/pics/channel_3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Addan | Masjid Al Nabwi | Madinah Al Munawwarah | Saudia Arabia
+            </p>
+            <p class="video-author">
+              Islam360
+            </p>
+            <p class="video-stats">
+              12M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Intro-html/pics/thumbnail_4.avif">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Intro-html/pics/channel_4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Infinix NOte 60 pro | 5G | Unboxing & Review
+            </p>
+            <p class="video-author">
+              Video Wali Sarkar
+            </p>
+            <p class="video-stats">
+              18M views &#183; 4 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Intro-html/pics/thumbnail_5.avif">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Intro-html/pics/channel_5.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How did the Bristish Empire Establish Control Over India? | Mughals VS British
+            </p>
+            <p class="video-author">
+              Dhruv Rathee
+            </p>
+            <p class="video-stats">
+              519K views &#183; 5 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="Intro-html/pics/thumbnail_6.avif">
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Intro-html/pics/channel_6.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Surah Ale Imran | Tafseer Ul Quran | Urdu | Dr Israr Ahmed
+            </p>
+            <p class="video-author">
+              The Living Verses
+            </p>
+            <p class="video-stats">
+              141M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
